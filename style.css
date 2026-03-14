@@ -1,0 +1,48 @@
+body {
+    background-color: #000F08;
+}
+
+#navbar {
+    background-color: #1C3738;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-width: 50px;
+    border-style: solid;
+    border-color: #1C3738;
+}
+
+h1 {
+    color: #F4FFF8
+}
+
+h2 {
+    color: #F4FFF8
+}
+
+h3 {
+    color: #F4FFF8
+}
+
+p {
+    color: #F4FFF8
+}
+
+ul {
+    color: #F4FFF8;
+}
+
+
+main {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-width: 70px;
+    border-style: solid;
+    border-color: #000F08;
+}
+#icon {
+    width: 4cm;
+    height: 1cm;
+    background-color: #000F08;
+    border-style: solid;
+    border-color: #F4FFF8;
+    border-width: 2px;
+    border-radius: 5px;
+}
