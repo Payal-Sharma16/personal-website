@@ -1,48 +1,137 @@
 body {
-    background-color: #000F08;
+    background:#0F172A;
+    color:#F8FAFC;
+    line-height:1.6;
+    padding-top: 80px;
 }
 
 #navbar {
     background-color: #1C3738;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-width: 50px;
+    border: none;
     border-style: solid;
     border-color: #1C3738;
 }
 
 h1 {
-    color: #F4FFF8
+    color: #F8FAFC
 }
 
 h2 {
-    color: #F4FFF8
+    color: #F8FAFC
 }
 
 h3 {
-    color: #F4FFF8
+    color: #F8FAFC
 }
 
 p {
-    color: #F4FFF8
+    color: #CBD5E1
 }
 
 ul {
-    color: #F4FFF8;
+    color: #F8FAFC;
 }
 
 
 main {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-width: 70px;
-    border-style: solid;
-    border-color: #000F08;
+    max-width: 1200px;
+    margin-top: 0;
+    padding: 60px;
 }
-#icon {
-    width: 4cm;
-    height: 1cm;
-    background-color: #000F08;
-    border-style: solid;
-    border-color: #F4FFF8;
-    border-width: 2px;
-    border-radius: 5px;
+
+#icon{
+    width:180px;
+    height:55px;
+
+    border:2px solid #334155;
+    border-radius:10px;
+
+    background:#161B22;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 18px 60px;
+    background-color: rgba(15,23,42,.75); /* 40% opacity */
+    backdrop-filter: blur(12px);          /* Optional: glass effect */
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.logo {
+    color: #F8FAFC;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav-links {
+    list-style: none; /*menu gets ordered*/
+    display: flex; /*the menu is listed in horizontal manner*/
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links a {
+    text-decoration: none; /*removes underline from the text*/
+    color: #CBD5E1;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+ .nav-links a:hover {
+    color: #38BDF8;; /*changes color of the text when hovered over*/
+ }
+
+.hero{
+    background:#1E293B;
+    border-radius:0;
+    padding:60px;
+    margin:0;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+.icon {
+    width: 220px;
+    padding: 12px 18px;
+    margin: 10px 0;
+    list-style: none;
+
+    background: #161B22;
+    border: 2px solid #334155;
+    border-radius: 10px;
+
+    transition: all 0.3s ease;
+}
+
+.icon:hover {
+    transform: translateY(-5px);
+    background: #253247;
+    cursor: pointer;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+
+    list-style:none;
+    padding:0;
 }
